@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriela Cunha | Portfolio para o Lab da DIO</title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Gabriela Cunha para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="../dio-lab-portfolio-main/favicon-32x32.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Explorando Tecnologia &</b> Criatividade em >>Front-end<<</h1>
+      <p>Gabriela da Cunha Geraldo, Ribeirão Pires-SP, Desenvolvedora Front-end.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/GabiC24" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/gabriela-cunha-328298235/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/gabi.devlife/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Explorando e dominando as principais tecnologias para transformar ideias em soluções.</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/html.png" alt="Logo HTML">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo CSS">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/js.png" alt="Logo JavaScript">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/Projeto Vetselene.png" alt="Capa VetSelene">
+        <div class="card__body">
+          <h3 class="card__title">VetSelene</h3>
+          <p class="card__description">A prova de que mesmo com recursos simples, é possível criar algo incrível e cheio de propósito.</p>
+          <ul class="card__list">
+            <li class="card__item">Home com apresentação da clínica;</li>
+            <li class="card__item">Lista completa dos serviços;</li>
+            <li class="card__item">Contato com formulário para agendamento online.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html.png" alt="Logo HTML">
+            </li>
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://gabic24.github.io/Projeto-HTML-Projeto-Clinica-Medica/index.html"><span>Repositório</span></a>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/divulga curso.png" alt="Capa Curso CSS">
+        <div class="card__body">
+          <h3 class="card__title">CSS3 Developer</h3>
+          <p class="card__description">Um projeto criado para divulgar cursos, combinando estrutura organizada com um visual atraente e funcional.</p>
+          <ul class="card__list">
+            <li class="card__item">Contato visível;</li>
+            <li class="card__item">Conteúdo do curso em destaque;</li>
+            <li class="card__item">Design Atraente.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html.png" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo TypeScript">
+            </li>
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://gabic24.github.io/trilha-css-desafio-1/"><span>Repositório</span></a>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/game-detona-ralph.png" alt="Capa Detona Ralph Store">
+        <div class="card__body">
+          <h3 class="card__title">Game Detona Ralph</h3>
+          <p class="card__description">Desenvolvendo diversão: joguinhos que unem simplicidade e entretenimento.</p>
+          <ul class="card__list">
+            <li class="card__item">Interatividade e Desafio;</li>
+            <li class="card__item">Design Simples e Atraente;</li>
+            <li class="card__item">Pontuação Dinâmica.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/html.png" alt="Logo Angular">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo TypeScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/js.png" alt="Logo Bootstrap">
+            </li>
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://gabic24.github.io/trilha-css-desafio-1/"><span>Repositório</span></a>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/GabiC24">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/gabi serena.jpg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Gabriela Cunha: Sou apaixonada por tecnologia e por aprender constantemente. Minha jornada começou no front-end, mas descobri meu verdadeiro interesse nas áreas de Inteligência Artificial e Cibersegurança, onde estou mergulhando de cabeça. 
+          <br><br>
+          Adoro explorar novas ideias e transformar projetos simples em algo funcional e cheio de propósito. 
+          Com uma abordagem prática e criativa, acredito que cada desafio é uma oportunidade de evolução. Enquanto codifico, bugo e aprendo, busco criar soluções que inspirem e impactem positivamente o mundo. 
+          <br><br>
+          Quando não estou estudando ou desenvolvendo, gosto de passar tempo com minha família, ler, assistir filmes e séries e, claro, me divertir com pequenos projetos que unem simplicidade e diversão.
+          <br><br>
+          "Codando, bugando e aprendendo" é mais do que uma frase: é meu estilo de vida.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Básico | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/gabriela-cunha-328298235/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="./assets/Curriculo Gabriela da Cunha Geraldo 2024 - Desenvolvedora.docx">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Markeding Digital</h4>
+          <span>Concluído em Jun 2024</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Anhanguera</span>
+          </div>
+          
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Em transição de Carreira</h4>
+          
+          <span>Estou no início da minha jornada na tecnologia, mas já estou mergulhando em projetos que colocam em prática o que venho aprendendo. Desenvolvi páginas web, joguinhos simples e até explorei simulações criativas que refletem minha paixão por resolver problemas e aprender novas habilidades.
+            <br><br>
+            Minha dedicação é demonstrada em cada linha de código, sempre buscando criar soluções funcionais e impactantes. Apesar de estar começando, meu foco em Inteligência Artificial e cibersegurança mostra que estou construindo um caminho com propósito. Estou pronta para transformar aprendizado em ação e ideias em realidade!
+          </span>
+          
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos Complementares</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>HTML 5</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                <strong>Formação HTML 5 Web Developer pela DIO</strong>
+              </p>
+              <p>
+                Essa formação tem uma carga horária de 21 horas, composta por 13 cursos e 3 desafios de projeto. Ao longo do programa, são abordados os principais conceitos para o desenvolvimento de páginas web: 
+              </p>
+              <ul>
+                <li><strong> Primeiros passos com HTML:</strong> Introdução ao universo da marcação e estruturação de páginas.
+                </li>
+                <li><strong> HTML I: Conceitos básicos:</strong> Fundamentos essenciais para criar páginas funcionais e bem estruturadas.</li>
+                <li><strong> HTML II: Ampliando o conhecimento:</strong> Exploração de técnicas mais avançadas para criar layouts mais completos.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>CSS 3</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                <Strong>Formação CSS Web Developer pela DIO</Strong>
+              </p>
+              <p>
+                Com duração de 43 horas, essa formação inclui 15 cursos e 5 desafios de projeto. O foco é no desenvolvimento de habilidades para estilização e layout de páginas web. Os principais tópicos abordados incluem:
+              </p>
+              <ul>
+                <li><strong> Primeiros passos com CSS:</strong> Introdução ao uso de estilos para transformar o visual das páginas.</li>
+                <li><strong>Trabalhando com Layouts no CSS:</strong> Criação de estruturas organizadas e responsivas para melhorar a experiência do usuário.</li>
+                <li><strong>Refinando os estilos CSS das nossas páginas:</strong> Técnicas avançadas para aprimorar a estética e a usabilidade de projetos web.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>JavaScript</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                <strong>Formação JavaScript Developer pela DIO</strong>
+              </p>
+              <p>
+                Essa formação, com 39 horas de conteúdo, é composta por 20 cursos, 2 desafios de projeto e 1 desafio de código. O objetivo é dominar o JavaScript, desde o básico até conceitos avançados, aplicando o conhecimento em projetos práticos. Principais módulos:
+              </p>
+              <ul>
+                <li><strong>Aprenda a programar do zero com JavaScript:</strong> Introdução à lógica de programação e fundamentos essenciais da linguagem.</li>
+                <li><strong>JavaScript para Web:</strong> Fundamentos de HTML, CSS e APIs na prática, com foco na interação entre front-end e back-end.</li>
+                <li><strong>Dominando conceitos avançados em JavaScript:</strong> Exploração de técnicas complexas para criar soluções robustas e eficientes.</li>
+                <li><strong>Currículo online com HTML, CSS e JavaScript:</strong> Do planejamento inicial ao deploy, aplicando os aprendizados para criar um projeto completo.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Aberta a novas oportunidades e conexões! Sinta-se à vontade para entrar em contato por e-mail ou acompanhar meu trabalho nas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/GabiC24" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/gabriela-cunha-328298235/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/gabi.devlife/" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:gabi.c.copy21@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">gabi.c.copy21@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024. Este portfólio é resultado de um dos projetos do Lab 'Construindo seu Portfólio Front-end do Zero'. 
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
